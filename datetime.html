@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <title>Date Time jQuery Plugin</title>
+<script src="datepicker.js"></script>
+  </head>
+  <body>
+
+Date:
+  <input type="date" id="date" name="date"><!--user enters the date-->
+  
+  <br>
+  <br>
+  Time:
+  <input type="time" id="time" name="time"><!--user enters the time-->
+  <br>
+  <br>
+  <button onclick="myFunction()" type="submit">Submit</button>
+
+<script>
+function myFunction() {
+  $("#datetime").dateTime();<!--calling Jquery Plugin-->
+  
+}
+</script>
+</body>
+</html>
